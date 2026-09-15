@@ -1,0 +1,29 @@
+[project]
+name = "fakegen"
+version = "0.1.0"
+description = "YAML/CSV-driven synthetic data generation, powered by Faker + DuckDB"
+readme = "README.md"
+authors = [
+    { name = "birrchr", email = "chris.birrell2@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.5.5",
+    "faker>=40.39.0",
+    "pandas>=3.0.5",
+    "pyarrow>=25.0.1",
+    "pyyaml>=6.0.3",
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+fakegen = "fakegen.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.11.21,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

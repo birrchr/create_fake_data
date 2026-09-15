@@ -1,0 +1,9 @@
+name,type,provider,kwargs_json,values,weights,min,max,start,end,value,missing_pct
+subject_id,sequence,,,,,,,,,,
+full_name,faker,name,,,,,,,,,
+email,faker,email,,,,,,,,,
+age,faker,random_int,"{""min"": 18, ""max"": 90}",,,,,,,,
+treatment_arm,code_set,,,Placebo|DrugA|DrugB,0.34|0.33|0.33,,,,,,
+enrollment_date,date_range,,,,,,,2023-01-01,2024-12-31,,
+status,constant,,,,,,,,,Active,
+notes,faker,sentence,,,,,,,,,15

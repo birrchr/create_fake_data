@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.pyc
+data/
+
+# Scratch files from `fakegen init`/`infer` run at the repo root while
+# trying the tool out -- doesn't apply to examples/ or tests/ fixtures.
+/schema.yaml
+/columns.csv
