@@ -1,0 +1,301 @@
+client_id;SIN;First Name;LAST_NAME;Full Name;Email;Phone;Street Address;City;Prov;Postal Code;DOB;Service Date;Status;Balance;Notes
+CL-000001;753645803;Élise;Chandler;Chandler, Élise;;call office;671 Kathryn Loaf Suite 535;Lac- Claudine;Alberta;T5J 9S4;08/07/2000;2021-05-12;;;
+CL-000002;;Éléonore;STEIN;Stein, Éléonore;khoude@example.net;353-134-3794;663 boulevard Yves Suite 294;West Sandra;NS;b8j3p5;03/09/1950;2022-08-14;Inactive;-11.54;
+CL-000003;453853012;Jeanne;Cameron;Jeanne S. Cameron;morissettepauline@example.net;9182850140;99393 Steven Mountains;Baie Henri  ;British Columbia;v7j 3j9;22/10/1997;14MAR2018;Pending;;Animi commodi repudiandae tenetur nostrum assumenda magnam doloremque nesciunt quasi cum commodi aut.
+CL-000004;see file;Margot;Veilleux;Veilleux, Margot;VEILLEUXMARCEL@EXAMPLE.NET;call office;161 GREGORY WALL;Renaud -sur-Mer;BC;V4S3G5;1995-01-22;11/07/2022;Active;712.86;"Called Margot on Jul 11; left msg."
+CL-000005;850-733-726;Hélène;MOREAU;Moreau, Hélène;PERREAULTMARIE@EXAMPLE.COM;(878) 065-0858;239 rang Éric Apt. 205;Mont- Frédérique;Nova Scotia;B6S 3V1;1944-06-13;02AUG2021;Active;0;
+CL-000006;see file;Kathryn;FORD;Kathryn Ford;baguirre@example.net;call office;916 boulevard Danielle;Loganshire;NS;B8T 6S3;1938-06-20;2021-06-24;Active;n/a;see file
+CL-000007;549 746 668;andrew;VEILLEUX;Andrew Veilleux;myang@example.org;1664588335;;LAC- ÉLISABETH -SUR-MER;Ontario;P2A 4X7;22APR1977;2020-01-22;Inactive;;
+CL-000008;39084343;Jeanne;Lambert;Jeanne Lambert;;;19404 rang luc apt. 741;West Alexismouth;AB;T9J 1T5;1974-03-12;2021-09-13;Actve;$2,534.43;see file
+CL-000009;645-905-466;JACOB;FERLAND;Jacob J. Ferland;;call office;86767 Acosta Cape;L'Île- Claude;AB;T6E 7G6;2007-08-06;10NOV2022;Active;$4,785.51;Tempore quis fuga sint sed architecto suscipit laborum nihil similique.
+CL-000010;596 589 052;Bernard;Lepage;Lepage, Bernard;no email on file;1540988679;254 Steven Gardens;SAINTE- MARCEL;British Columbia;V6P 5T8;2000-06-24;2015-03-09;ACTIVE;0;
+CL-000011;386 440 259;Dustin;BÉGIN;Dustin N. Bégin;;;82719 Marshall Trafficway;Mont- Nicole Ouest;B.C.;V4C  1C2;15SEP1981;20OCT2023;Pending;738.17;Eveniet consequuntur modi molestiae exercitationem corrupti expedita numquam quibusdam deserunt vel rem.
+CL-000012;205-882-182;JEANNINE;BÉLANGER;Bélanger, Jeannine;;call office;734 Simmons Corner  ;Pearsonchester;British Columbia;V7V 1L7;02FEB1997;18/02/2021;Active;601.03;see file
+CL-000013;608-614-493;Emmanuelle;DESROCHERS;Emmanuelle N. Desrochers;YALLEN@EXAMPLE.COM;6684103862;04564 Chris Unions Suite 556;Hernandezport;ON;M9C 1Y8;13/11/1997;26/07/2016;Active;0;"Called Emmanuelle on Jul 26; left msg."
+CL-000014;042-566-489;Misty;ANDERSON;Misty A. Anderson;BRIAN07@EXAMPLE.NET;(040) 152-3384;25480 avenue Lambert;East Leonardshire;BC;v2a 4m8;00/00/0000;2016-11-20;Actve;;
+CL-000015;671 034 221;Lori;Grant;Lori J. Grant;rvallee@example.net;366-266-7914;251 rue Giroux Suite 193  ;Lake Melissaville;AB; T7K 2V7;1991-02-13;05/03/2015;Inactive;n/a;
+CL-000016;499 429 394;JACQUES;BROWN;Jacques D. Brown;;294-339-9675;8450 allé Nicolas;Champagne Ouest;Ontario;P8E 7R8;1942-11-11;05/09/2024;Active;;"Called Jacques on Sep 05; left msg."
+CL-000017;150 629 156;Colette;BOUTIN;Boutin, Colette;none;call office;7180 rang Timothée;SAINTE--VILLE-MALTAIS;ont.;N1K1V2;03FEB2006;23/10/2021;Inactive;$2,431.23;see file
+CL-000018;743 149 146;Sarah;DUGUAY;Sarah Duguay;katie75@example.com;;;North Jessicaville;B.C.;V3J  2C2;2006-11-19;20MAY2018;Inactive;450.33;Voluptatibus corrupti enim saepe commodi cum perferendis dolore facilis quod sequi id sit.
+CL-000019;833-155-724;Barbara;GARZA;Barbara S. Garza;no email on file;;993 route Massé;North Alyssa;Nova Scotia;b3r 4c1;00/00/0000;31/12/2017;Active;n/a;Velit id asperiores vel itaque aliquam illo tempore fugit vero.
+CL-000020;999-999-99;Danny;ALLEN;Danny Allen;alexandralapierre@example.net;;07592 Brown Key;Raphaël Est;Quebec;G8Y7N3;17OCT1984;03/01/2024;Actve;0;"Called Danny on Jan 03; left msg."
+CL-000021;603866043;Henry;St-Jean;St-Jean, Henry;none;591-334-2407;1354 CYNTHIA COMMON;West Melissaberg;British Columbia; V2A 2C2;29JAN1980;27DEC2015;;;see file
+CL-000022;999-999-99;STEVEN;VACHON;Steven K. Vachon;;(703) 839-3872;6990 montée Henri Apt. 961;Lake Davidfurt;ONTARIO;m1p5b1;27JUN1982;01/09/2024;Active;;
+CL-000023; 811668029 ;Frédéric;AUGER;Frédéric Auger;JASON37@EXAMPLE.COM;077-716-6823;4355 Michelle Islands;TIFFANYBERG;QC;g7m 1j7;29/08/1980;2024-03-13;Inactive;0;
+CL-000024;181-649-273;Denise;Jackson;Denise J. Jackson;OLIVIERBELANGER@EXAMPLE.COM;0045253702;839 BOULEVARD BOUDREAU SUITE 337;East Donaldside;NS;b2h 3s5;1976-05-10;2022-08-10;Active;;
+CL-000025;083167858;Monique;REILLY;Reilly, Monique;LAPOINTECHARLOTTE@EXAMPLE.NET;918-308-3244;539 Jasmine Vista Apt. 629;Camposchester;QC; G8A3Y3;08SEP1975;20/02/2017;ACTIVE;0;
+CL-000026;054 897 363;Jessica;Langlois;Langlois, Jessica;none;202-565-4317;1533 Cheryl Cliffs Suite 042;Saint- Bertrand -sur-Mer;PQ; H2V7M5;1988-12-28;06/02/2022;Inactive;$1,308.80;Eum eveniet provident ex incidunt possimus illo odit non reiciendis autem quidem tempore aperiam reiciendis qui laborum.
+CL-000027;383-623-468;Heidi;FORTIER;Heidi Fortier;none;(636) 127-8748;583 rue Alain Apt. 115;Nicoletown;ONTARIO; M2R1B8;15JUL1940;26/08/2022;Pending;534.60;
+CL-000028;054 259 681;Kendra;RIVAS;Kendra Rivas;;440-671-8675;22223 route Charles Apt. 601;South Brianview;NS; B3H9Y3;28NOV1937;27/11/2018;Inactive;n/a;Rem tenetur illo consequatur porro laudantium quis nam odit explicabo architecto modi.
+CL-000029;381 903 576;Audrey;DIONNE;Dionne, Audrey;none;;1757 ISAAC HOLLOW;Martine Ouest;ONTARIO;p6b 7p5;14/04/1941;2015-01-29;Active;n/a;see file
+CL-000030;see file;Alice;PROVENCHER;Provencher, Alice;none;335-532-9273;69939 Allen Forges;Port Jessicaton;Alberta;t4m 8e1;1960-01-10;12JAN2017;Active;n/a;
+CL-000031;809 217 682;Stéphanie;Marcotte;Stéphanie Marcotte;no email on file;901-911-1557;93728 Mary Ridges Suite 900;South Leslieton;Ontario;N6Y 3C8;1974-09-08;2024-07-04;Inactive;n/a;see file
+CL-000032;301-122-172;NICOLE;Charest;Charest, Nicole;none;3241144699;;Lake Timothy;Alberta;t2c2b1;1954-07-23;19MAY2020;Active;$464.52;
+CL-000033;76995482;Michael;SANCHEZ;Sanchez, Michael;MONIQUEPARE@EXAMPLE.ORG;599-949-7219;49013 Young Points Suite 504;l' emma;NS;b3l8v8;1969-08-23;15JAN2020;Active;350.33;
+CL-000034;732014568;Samantha;Veilleux;Samantha Veilleux;claudepouliot@example.com;call office;3521 Fisher Flats;Ramosshire;British Columbia;V6X5E1;23/09/1950;2022-10-12;Inactive;;"Called Samantha on Oct 12; left msg."
+CL-000035;672 614 724;Ricardo;Croteau;Ricardo F. Croteau;no email on file;7169842116;3226 Erika Stream;Racine Est;AB;t9j6x5;1982-03-09;2022-10-21;Inactive;0;
+CL-000036;999-999-99;Alexis;LOPEZ;Alexis Lopez;ANOUKTARDIF@EXAMPLE.ORG;340-087-3012;830 Michael Falls;Ville-Ville-Labbé;Alberta;T6P  4K2;04OCT2006;22OCT2020;Active;$3,060.89;
+CL-000037;073 381 121;Steven  ;LAMBERT;Steven M. Lambert;no email on file;(141) 697-1699;83489 SABRINA MOUNTAIN;POULIN;PQ;J9Y  6B2;17/12/1961;31/01/2024;Actve;$1,897.48;see file
+CL-000038;340 341 189;Charles;Trottier;Charles Trottier;etaylor@example.org;(281) 320-0774;4193 HEATH FORGES APT. 447;EAST CURTIS;ont.;P6A  6H1;14SEP1991;2023-08-10;Inactive;;see file
+CL-000039;765186194;céline;RIVARD;Céline A. Rivard;LACASSERENEE@EXAMPLE.ORG;807-119-1830;20589 JORGE INLET SUITE 004;Murraytown;Québec; G9R8Y2;30JAN1952;29/08/2023;;;
+CL-000040;N/A;Isabelle  ;BOLDUC;Bolduc, Isabelle;no email on file;116-298-0663;2888 Sabrina Streets Apt. 549;Sandovalfurt;British Columbia;V5V 4X2;2005-04-13;13MAY2021;;$3,191.52;"Called Isabelle on May 13; left msg."
+CL-000041;172100934;Laura;SMITH;Laura Smith;;;0427 Brian Junctions;Édouard -sur-Mer;Nova Scotia;B6L 2P6;24JAN1961;24/05/2016;Pending;891.90;
+CL-000042;078 541 687;Valérie;Allard;Allard, Valérie;none;7684020862;6912 chemin Béatrice;La Tristan;ON;n4m1x3;2003-11-07;07/04/2015;;;"Called Valérie on Apr 07; left msg."
+CL-000043;670 446 756;Bertrand;HARMON;Harmon, Bertrand;HOLLOWAYTODD@EXAMPLE.ORG;(715) 338-2911;14703 RAMIREZ UNION;Lucy Ouest;ont.;K9R 4R5;2003-11-13;2021-06-18;;$359.06;
+CL-000044;823 166 985;Richard;CHAMPAGNE;Champagne, Richard;none;(787) 483-4129;2701 rue Villeneuve Apt. 520;Ville Mélanie Ouest;Québec;J7M 9Y5;25MAR1970;2019-05-25;Inactive;;
+CL-000045;774 416 036;Matthew;LARIVIÈRE;Matthew Larivière;STACYCHEN@EXAMPLE.NET;(046) 162-0742;58437 Sharon Crescent Suite 116  ;Lac- Harvey;Alberta;T2X  4V6;1964-07-14;22JAN2024;Actve;0;Odio ipsa accusamus alias voluptatibus repellendus unde soluta eum illum amet quibusdam quod reprehenderit.
+CL-000046;501-528-706;Tara;Fournier;Tara Fournier;QEVANS@EXAMPLE.NET;call office;70601 Lambert Lake;Brooksview;British Columbia; V2J9N9;02FEB1954;04/07/2024;Active;;Dolore placeat facere vitae consequuntur maiores voluptatum.
+CL-000047;;Manon;AUGER;Manon Auger;none;call office;39575 Billy Canyon Suite 258;Mont- Leblanc;NS;B5M  7Y4;1976-01-05;2022-09-08;Inactive;n/a;see file
+CL-000048;008-737-019;Donald;Thibodeau;Thibodeau, Donald;no email on file;;924 Misty Lane;Baie Langlois;BC; V9L1Y3;29/03/1981;2017-05-14;ACTIVE;269.86;see file
+CL-000049;180-782-260;Gabriel;LAFONTAINE;Lafontaine, Gabriel;EWANG@EXAMPLE.COM;(822) 146-9199;8455 Marissa Curve;Baie Samuel;Quebec; J7M 9H5;2002-03-09;28SEP2024;Inactive;;
+CL-000050;618 203 000;Phillip;CHARTRAND;Phillip Chartrand;no email on file;7492031026;2718 rue Croteau;Sainte- Alex;Quebec;j8t5s9;1987-04-26;2024-12-11;Inactive;$3,257.61;
+CL-000051;285-016-622;Caleb;Provost;Caleb É. Provost;none;(968) 561-5093;82595 rue Jonathan Apt. 754;L' Delisle;ONTARIO;K8J 8E5;1990-06-11;29/07/2020;;580.76;
+CL-000052;042-276-675;Marie;Cohen;Cohen, Marie;rchabot@example.net;(346) 328-1021;432 RANG DESROCHERS APT. 591;West Brianamouth;ont.;l5r3k9;1984-09-28;2016-12-16;Pending;0;
+CL-000053;517-216-800;Richard;BÉRUBÉ;Bérubé, Richard;wchouinard@example.com;836-274-8272;77489 Danny Ville Apt. 612;LAMOUREUX;ont.; P8Y 3L8;14/01/2004;2019-08-19;Inactive;775.28;
+CL-000054;503-548-232;Rosalie;Hatfield;Hatfield, Rosalie;ZHAYNES@EXAMPLE.COM;call office;;Vincent -sur-Mer;British Columbia;v5j8p3;2001-12-03;25/04/2022;Inactive;n/a;Excepturi corrupti corporis reprehenderit eligendi quod.
+CL-000055;822205564;Rémy;MARTIN;Rémy K. Martin;DLACHAPELLE@EXAMPLE.COM;;78133 allé Bolduc Suite 333;Demers;NS;B4N 6B1;02/11/1972;2023-10-24;Active;;Laboriosam voluptatibus nulla numquam tempore harum reprehenderit cumque praesentium voluptatem rem facilis harum ad voluptatum dolorum quia rerum corrupti illum beatae.
+CL-000056;113460729;AURÉLIE;Huerta;Huerta, Aurélie;;6556259697;29497 JOANNA ALLEY APT. 521;Williamfort;Nova Scotia;B4T 2S8;31DEC1967;2022-11-21;Inactive;n/a;
+CL-000057; 725310866 ;Jeanne  ;DUGUAY;Jeanne J. Duguay;;(105) 058-9421;227 Holt Glens;CLOUTIER;ont.;P3J9B4;29NOV2005;23FEB2024;Pending;n/a;Unde saepe sint fugit velit quos placeat.
+CL-000058;795 702 957;Margot;DROUIN;Drouin, Margot;johnathanparker@example.org;;39300 avenue Martin;Saint- Provencher;NS;B3T 2A5;1955-06-25;2022-05-07;Active;848.99;Aliquid deleniti dolores exercitationem dicta atque voluptate ut provident sunt voluptatibus inventore tenetur.
+CL-000059;635-887-876;Debbie;MURRAY;Debbie Murray;none;(383) 025-9254;87473 Gill Run  ;Emilyburgh;ONTARIO;m8r1c6;1972-09-23;2023-07-30;Inactive;$2,238.10;
+CL-000060;180460305;david;Hudson;David Hudson;no email on file;286-844-1128;69516 Michael Falls;MICHAELBERG;ont.;k2p3s1;1972-08-21;2016-02-21;Active;;"Called David on Feb 21; left msg."
+CL-000061;377 214 200;david;HERNANDEZ;Hernandez, David;none;;11462 montée Beauchamp;LA DUBÉ;NS;B6T3H9;1938-06-28;2017-05-04;Inactive;822.02;
+CL-000062;550-231-831;ÉDOUARD;BARRETT;Barrett, Édouard;BEGINSAMUEL@EXAMPLE.ORG;599-315-3191;4581 chemin Dumas Suite 541;HALLHAVEN;Quebec;H3A 6S7;1961-02-10;26APR2021;Inactive;$1,354.97;"Called Édouard on Apr 26; left msg."
+CL-000063;225 308 865;Erica;TANGUAY;Erica Tanguay;none;call office;17129 Calvin Springs;Desrochers;NS;B4X 9M4;13MAR2003;2018-02-09;Active;n/a;
+CL-000064;74330217;Julie  ;Griffin;Griffin, Julie;none;341-464-7201;228 chemin Martel Apt. 589;Rhondaside;NS;B1J 8H2;1953-09-24;30JUL2015;Active;;"Called Julie on Jul 30; left msg."
+CL-000065;473 060 487;RAPHAËL;Ménard;Raphaël Ménard;JESSICACHARTRAND@EXAMPLE.ORG;;12319 allé Marc Apt. 205;New Kellyview;Québec;G1P 5B9;1950-03-13;07/01/2019;Active;;
+CL-000066;752 680 666;François;SMITH;François L. Smith;none;;491 rang St-Jean Apt. 990;Davidburgh;Alberta;T6E  7V6;10FEB2005;19FEB2022;Pending;n/a;"Called François on Feb 19; left msg."
+CL-000067;862 964 030;KARINE;FONTAINE;Fontaine, Karine;;847-227-4135;95940 Michael Turnpike Suite 944;Labbé;Alberta;T2P 6N2;24JAN1961;2024-07-17;Inactive;$4,952.06;"Called Karine on Jul 17; left msg."
+CL-000068;700676834;richard;Simard;Richard K. Simard;duguayjonathan@example.com;(959) 021-9023;072 Cody Place;GENDRON OUEST;ont.;M8L3G1;1944-11-20;2018-03-06;ACTIVE;;Tempore reiciendis quasi odio rerum itaque dolorum quidem dolores cumque laboriosam nulla tempora eius eos.
+CL-000069;185-524-312;William;HAMILTON;William C. Hamilton;;(274) 209-5028;58350 montée Nathalie Suite 975;MONT- ÉLISE;B.C.; V2J 3N6;01NOV1987;13/02/2024;Inactive;0;
+CL-000070;648676343;Samantha;PROVOST;Samantha Provost;no email on file;819-924-0411;7097 Heather Grove;lachance -sur-mer;Québec; J5S 1Y3;1939-02-24;15APR2018;;$4,472.44;Fugit labore excepturi qui dignissimos voluptate odit.
+CL-000071;742-526-175;Vanessa;Delgado;Vanessa G. Delgado;;472-596-6792;;Port Melissa;ONTARIO; M4T1K2;;17/10/2016;Pending;0;see file
+CL-000072;405168352;Timothée  ;SIROIS;Timothée Sirois;none;(039) 449-7996;79494 robert villages;alyssaberg;Alberta;T1M 9P3;18OCT1992;2020-08-23;Inactive;579.41;Aliquid explicabo voluptatum maxime unde molestias soluta ut recusandae inventore minus non iusto nam ipsam pariatur ullam porro commodi quidem neque quos.
+CL-000073;775 885 360;Robert;DAVIS;Robert V. Davis;yrodriguez@example.org;8873557534;98713 rue Legault;Edwinmouth;PQ; J2S7J8;1940-04-20;23/04/2019;;0;
+CL-000074;251-438-242;Florence;CÔTÉ;Florence P. Côté;;;083 boulevard Sylvie;Baie Christiane;Nova Scotia;b8x1j7;1937-10-06;2017-05-01;Pending;0;
+CL-000075;620 907 738;Sherry;CAMPBELL;Campbell, Sherry;;610-212-3268;04614 JOHN LOOP SUITE 236;Baie Nguyen;Nova Scotia; B3V 2L9;15OCT1940;2023-04-28;Active;;"Called Sherry on Apr 28; left msg."
+CL-000076;708 347 117;John;DUNLAP;John J. Dunlap;no email on file;6205113339;87882 Figueroa Crescent;port jasonbury;NS;B4N  9T8;1965-01-17;12SEP2020;Active;0;
+CL-000077;40517435;Emma;MOSES;Moses, Emma;;;66337 boulevard Virginie;Karine Est;ON;N6M 2J9;1999-09-04;15DEC2020;Active;n/a;"Called Emma on Dec 15; left msg."
+CL-000078; 384105870 ;Andrea;FERLAND;Ferland, Andrea;none;call office;777 Tonya Lane Suite 342;Josephtown  ;ONTARIO;N6P  3N7;19FEB1963;2021-10-14;Inactive;;
+CL-000079;;SEAN;FLOYD;Floyd, Sean;none;;4514 Wilson Light Apt. 321  ;THOMPSONMOUTH;B.C.;v6m9x2;11NOV1991;2017-08-13;Inactive;;Doloribus saepe consequatur cupiditate ab reprehenderit occaecati dolores laboriosam itaque dicta itaque similique laborum.
+CL-000080;837-226-174;Justin;MCCARTHY;Mccarthy, Justin;PATRICKPOULIN@EXAMPLE.NET;call office;2587 rue Martel;Lebel;Alberta;T5S  2V5;;22SEP2015;Active;;"Called Justin on Sep 22; left msg."
+CL-000081;39971276;Laura;LAROUCHE;Laura R. Larouche;DBOLDUC@EXAMPLE.NET;call office;4587 Hodge Prairie;North Allisonside;AB; T9S 9L1;1947-07-14;2022-03-16;Active;344.53;
+CL-000082;292317749;ANTHONY;JOHNSON;Johnson, Anthony;none;(748) 792-5335;700 boulevard Lucas Suite 842;Gervais;Nova Scotia;B3X 6H2;1968-06-12;04/09/2021;Inactive;;"Called Anthony on Sep 04; left msg."
+CL-000083;405-685-231;DAVID;MURPHY;David Murphy;;call office;44266 Rebecca Crescent Apt. 343;Lynnport;Nova Scotia;b2m8m5;14/09/2000;2020-04-12;Active;$4,428.00;Repellendus minima neque aut reiciendis cupiditate placeat odio reprehenderit quasi veniam.
+CL-000084;338-148-075;Louis  ;Beauregard;Louis C. Beauregard;no email on file;call office;3971 Ricardo Estate Suite 425;Therrien;BC; V8P 8T2;19SEP2003;2019-04-02;Active;-43.62;
+CL-000085;453760746;Gregory;LOPEZ;Gregory Lopez;SARAWARD@EXAMPLE.NET;(488) 199-3455;743 montée William Apt. 702;Bouchard;NS;B1J 3E7;18SEP1996;31/10/2017;Active;;
+CL-000086;857 092 517;Hugues;ÉMOND;Émond, Hugues;none;;3089 rue Grégoire;East Nathan;QC;H6X 7K3;22AUG1986;2021-09-02;Active;792.37;
+CL-000087;256 786 724;Jacob;HAMILTON;Jacob Hamilton;frankcarpenter@example.org;;5192 Curry Loop Apt. 345;Greenberg;B.C.;V1L 8Y4;01/06/1937;16SEP2022;ACTIVE;757.41;Sit exercitationem ducimus voluptates distinctio aut modi quasi earum voluptates eveniet iusto.
+CL-000088;886 605 278;Brandi;Allen;Brandi O. Allen;none;call office;70525 rang Célina Apt. 293;Lefebvre;BC;V7A 4J3;;2023-01-27;Active;n/a;Nobis nam est dolorum libero animi possimus dolores doloribus est laborum.
+CL-000089;531081461;Gilles;SMITH;Smith, Gilles;siroisflorence@example.org;726-337-8334;4243 Donna Brook Suite 339;Mont- Pierre Ouest;PQ;J5H  9V3;11MAR1939;2019-12-12;Actve;193.92;
+CL-000090;055881437;Nicholas;Goulet;Nicholas Goulet;;(022) 289-8921;031 Mitchell Ridges;New Candicechester  ;AB;T9K 5S9;1943-10-22;2024-07-11;Active;n/a;
+CL-000091;527466114;Émile;TROTTIER;Émile Trottier;no email on file;5983296289;185 Duncan Cove;Hamel;British Columbia; V8Y9A8;2003-04-29;25OCT2023;Active;$1,859.34;"Called Émile on Oct 25; left msg."
+CL-000092;853061729;Jules;WILLIAMS;Jules E. Williams;no email on file;098-866-3847;;Baie Julien Est;NS;b9m4a8;12NOV1957;04/04/2021;ACTIVE;n/a;Eaque tempore dicta culpa laboriosam dolor.
+CL-000093;653-807-222;JACQUES;LAPLANTE;Jacques H. Laplante;louisgravel@example.com;1095872378;399 rue Duval Apt. 917;Lac- Aurélie;NS;b2k5m6;26JAN1962;2016-12-16;Active;$4,178.25;Nisi voluptatum odit cupiditate dolore doloribus quas mollitia amet voluptate.
+CL-000094;394 993 740;KIM;MORIN;Kim E. Morin;none;call office;19217 ALLÉ OLIVIA APT. 994;NORTH ASHLEY;Quebec;j3l3e7;1998-05-08;05JUN2018;Inactive;0;see file
+CL-000095;148 169 481;Allison;THORNTON;Allison Thornton;;;34228 montée Thérèse Apt. 701;Mont- Bégin;Nova Scotia;B4A8X2;1987-08-09;2017-01-01;Active;0;"Called Allison on Jan 01; left msg."
+CL-000096;872-340-385;Roger;VALENCIA;Roger Valencia;LALONDEALEXIS@EXAMPLE.ORG;(142) 487-4985;02925 avenue Gabrielle Suite 175;Mathieu;Quebec;J7B 7J9;;2024-05-16;Active;;"Called Roger on May 16; left msg."
+CL-000097;884-364-926;STACEY;Johnson;Stacey Johnson;no email on file;(898) 690-8382;547 Reyes Estates;LORRAINE EST;Nova Scotia;b5p4g2;15/11/2006;2015-06-29;ACTIVE;n/a;"Called Stacey on Jun 29; left msg."
+CL-000098;541 138 608;Alexander  ;GOMEZ;Alexander Gomez;no email on file;925-515-1142;56120 allé Renaud Apt. 785;Lucy -sur-Mer;BC;V3H3S3;1968-03-04;2019-06-11;Active;77.75;
+CL-000099;873 201 651;Claire;RACINE;Claire F. Racine;none;;8259 boulevard Sylvie;LABRECQUE;Québec;h3s3b7;17DEC2003;08/02/2021;Active;$3,773.01;see file
+CL-000100;641 651 708;LAETITIA;LAPIERRE;Lapierre, Laetitia;;(705) 511-3415;1062 rang Deschênes;La Daniel Ouest;NS;B6G 8A9;1960-07-06;2015-03-24;ACTIVE;n/a;Aperiam quod ratione perferendis occaecati reiciendis.
+CL-000101;733-051-452;ÉLISE;SCHMIDT;Élise G. Schmidt;no email on file;439-967-6863;931 AVENUE LEFEBVRE APT. 270;Lake Jack;British Columbia;v3g2l4;1959-09-16;2018-05-01;Active;;
+CL-000102;874-364-738;Pénélope;White;Pénélope White;SEBASTIENLAROSE@EXAMPLE.ORG;830-799-8576;190 chemin Lucie;Timothyton;PQ;J1L1X6;1957-01-05;2019-10-22;Active;$4,709.68;
+CL-000103;050-681-142;Joanna;Rioux;Joanna C. Rioux;maxime10@example.org;call office;1359 avenue Luc;Johnville;AB;T2X  9J6;1960-09-28;13/08/2022;Active;n/a;
+CL-000104;087-064-037;Kim;BOUCHARD;Bouchard, Kim;CRICHER@EXAMPLE.COM;call office;2083 chemin Lambert Apt. 934;West Sean;B.C.;V8P 8B8;14/07/1967;2021-03-16;Pending;;
+CL-000105;764-164-174;SÉBASTIEN;THIBAULT;Thibault, Sébastien;none;995-707-7491;41371 Robbins Grove Apt. 108;Walkerborough;NS;B2E 2T8;07DEC1971;2022-09-10;Active;$1,765.31;"Called Sébastien on Sep 10; left msg."
+CL-000106;834 854 088;Georges;GUILLEMETTE;Guillemette, Georges;ODAVIS@EXAMPLE.COM;041-160-4351;504 Boyle Islands Apt. 202  ;Smithstad;QC;G6Y 3M1;18FEB2005;2018-05-11;Active;0;Et ducimus amet totam quia veniam sit quae et rem.
+CL-000107;201 746 732;Christelle;Villeneuve;Christelle N. Villeneuve;daniel81@example.net;call office;81421 MATTHEW MANOR SUITE 208;Baie Nicole;Nova Scotia;B5M 9M3;1976-11-11;2024-07-26;Inactive;0;"Called Christelle on Jul 26; left msg."
+CL-000108;617 547 807;Simone;Carlson;Simone M. Carlson;no email on file;;;LEWISLAND;Québec;G8A 2J4;1984-09-14;2020-06-29;Actve;0;
+CL-000109;752687400;Maryse;Jacobs;Jacobs, Maryse;st-jeanmichel@example.com;585-407-0856;8555 Preston Mills Suite 242;st-laurent;PQ;h6s 5h9;1999-01-04;2022-12-03;Active;378.08;see file
+CL-000110;122 620 446;Alice;FRAZIER;Frazier, Alice;no email on file;305-615-2114;39827 Reed Skyway Suite 822;Adamsbury;BC; V1R6L4;19NOV1993;17/12/2023;;;
+CL-000111; 271088437 ;Ashley;Vézina;Vézina, Ashley;agnes78@example.org;146-976-6583;;Jamesshire;Alberta;T1X2G8;14/11/1968;17DEC2023;;269.34;see file
+CL-000112;660885229;Karen;MERRITT;Karen R. Merritt;LAPIERRETHERESE@EXAMPLE.COM;8377394033;17408 Stanley Crescent Apt. 678;Mont--Lac--Lafontaine;QC;G3T 2G4;01/02/1947;2016-04-23;Active;;Quis voluptatibus ipsum nam quo atque minima ratione.
+CL-000113;880-251-335;Lauren;Hopkins;Hopkins, Lauren;none;call office;6891 avenue Leblanc;LAC- CHARLES;AB; T5P 2M7;1991-07-20;19/09/2015;;;Voluptas provident non enim excepturi iste illo.
+CL-000114;unknown;JUSTIN;BLAIR;Blair, Justin;none;8753116425;12923 avenue René Suite 595;Bakerport;British Columbia;v4y 8c4;;2021-12-02;Active;$617.28;see file
+CL-000115;305164451;Aaron;GEORGE;Aaron S. George;no email on file;;65970 Danielle Port;Solisshire;B.C.; V9Y 1V4;1997-11-11;09SEP2017;Inactive;;"Called Aaron on Sep 09; left msg."
+CL-000116;810745331;Monique;Munoz;Munoz, Monique;no email on file;;8349 Lewis Overpass Apt. 695;Williamberg;ont.;k1t 5l6;1951-02-16;30/05/2021;Active;;Provident perferendis esse et inventore vero velit officiis enim reprehenderit amet doloremque molestias repellendus.
+CL-000117;614-887-057;Audrey;GALVAN;Audrey D. Galvan;no email on file;;735 rue Gabrielle Suite 283  ;New Brianna;ONTARIO; M5Y 6M4;00/00/0000;2022-03-20;Actve;;
+CL-000118;233 182 317;Ann;ADAMS;Ann S. Adams;PAQUETTEDOROTHEE@EXAMPLE.NET;730-461-9944;247 Wang Park;Mont- Philippe;QC;g8x 6p2;1959-10-22;25AUG2021;Active;0;
+CL-000119; 640116521 ;patricia;WOODS;Woods, Patricia;rcross@example.net;(696) 258-3518;351 montée dubé;Wilsonburgh;NS;B6X5B4;1946-02-06;2020-08-03;Inactive;;In nostrum cupiditate quas iste.
+CL-000120;747 425 841;Lee  ;Combs;Combs, Lee;wbisson@example.org;(073) 105-7484;5964 rang Dorothée Apt. 263;Justinside;Nova Scotia;B5L  7X2;1990-09-20;30/12/2016;Active;n/a;see file
+CL-000121;N/A;Renee;TESSIER;Tessier, Renee;;059-875-7128;2755 Stacy Plaza;Sainte- Croteau  ;B.C.; V7V 6H8;1959-08-01;15/02/2015;Active;$2,826.71;
+CL-000122;;Elizabeth;Hernandez;Elizabeth Hernandez;VCHARTRAND@EXAMPLE.COM;;03892 allé Vallée;Baie Éric;NS;b7e2p6;1963-01-03;2020-08-23;Active;$2,409.20;
+CL-000123;528794575;Kristina;PATEL;Patel, Kristina;none;622-876-5751;626 Schneider Square;ALICIASTAD;ONTARIO;M2E 9K5;12/02/1943;2022-03-09;Inactive;;"Called Kristina on Mar 09; left msg."
+CL-000124;521-304-287;TAMMY;DIXON;Tammy Dixon;RAMIREZJESSICA@EXAMPLE.ORG;266-015-9976;0600 avenue Bertrand Apt. 998;Sainte- Charette;BC;v3n 5l3;00/00/0000;07MAR2015;ACTIVE;n/a;
+CL-000125;584 447 174;Mark;EDWARDS;Edwards, Mark;;507-899-8001;64384 montée Bergeron;KARENFURT;Alberta;t1j7e4;1992-04-09;16/11/2017;Actve;;
+CL-000126;087264069;Maude;THOMAS;Maude P. Thomas;POIRIERERIC@EXAMPLE.NET;;;Mont- Bouchard;Nova Scotia; B6X 3K7;1945-07-30;2018-02-17;Inactive;0;see file
+CL-000127;260078682;MARC;Walker;Marc C. Walker;none;(475) 441-8584;79000 Stephen Center Suite 776;Annastad;AB;T6E7K5;1938-09-22;2023-01-23;Pending;$2,154.06;see file
+CL-000128;248-443-459;émilie;Perry;Émilie Perry;none;call office;29672 Sanders Curve Apt. 995;North Patriciafurt;British Columbia;V8J9V4;24/01/1968;25DEC2020;Active;n/a;Inventore itaque perspiciatis eaque magni repellendus facilis illum.
+CL-000129;354380586;Sébastien;FLOWERS;Sébastien Flowers;no email on file;512-391-4841;8688 chemin Dubois Apt. 616;Burnsside;Quebec;g2a1s4;12JAN1949;2020-09-11;Inactive;n/a;
+CL-000130;858 241 699;hugues;DESJARDINS;Desjardins, Hugues;no email on file;5549337581;444 Lang Forest Apt. 342;VILLE-L'-FERLAND;BC;V5T  7S7;1987-12-10;08APR2019;Active;n/a;see file
+CL-000131; 672418324 ;Étienne;MARTIN;Étienne Martin;none;;678 Angelica Road Suite 843;Mont- Odette;British Columbia;v3s3l3;1995-07-15;2018-11-05;Active;0;
+CL-000132;147 354 005;Colette;ORTEGA;Ortega, Colette;;;23397 Jason Causeway Apt. 489;BOUTIN EST;PQ;h9n6n4;17APR2003;24/12/2023;Pending;780.56;
+CL-000133;264 808 465;Charlotte;COHEN;Charlotte K. Cohen;none;3839095104;0267 Collin Parkways Suite 063;Baie Mathieu;AB;T3S 4S5;1957-01-10;2019-01-08;Active;;"Called Charlotte on Jan 08; left msg."
+CL-000134;810450067;Scott;DALLAIRE;Dallaire, Scott;potvinolivia@example.org;674-312-4474;048 REBECCA POINT;Robertborough;PQ;g1a 6t4;1967-04-19;2021-08-12;Actve;597.49;
+CL-000135;690137995;SHARON;HOLLOWAY;Holloway, Sharon;ALEC30@EXAMPLE.COM;;3993 Christian Valley;Lopezton;Alberta;t5g 5j7;02NOV2003;2019-07-27;Active;$1,757.88;
+CL-000136;781 524 343;VANESSA;Murphy;Vanessa Murphy;;;261 GRANT PLAIN;LÉTOURNEAU;ont.;L1L 4M7;13JUN1956;2020-07-01;ACTIVE;n/a;see file
+CL-000137;645522061;Henriette;SOUCY;Henriette M. Soucy;swilson@example.org;3140896465;279 Turner Expressway Suite 861;Baie-Saint--Lacroix  ;BC; V1L1Y9;00/00/0000;09/08/2020;Active;n/a;
+CL-000138;318 383 060;Hannah;LAPOINTE;Lapointe, Hannah;no email on file;833-438-8374;898 route Pénélope Suite 411;L' NATHAN;Ontario;N7M 3G3;1949-11-16;30MAY2018;Inactive;;see file
+CL-000139;564 473 254;Margot;HARRIS;Harris, Margot;jharris@example.org;2387445876;857 Chase Circles Suite 994;East Williamville  ;Nova Scotia;B5N7V4;1994-11-13;30MAR2019;Active;0;see file
+CL-000140;071-624-720;ALAIN;LEON;Alain Leon;no email on file;563-213-5909;83562 allé Marguerite;Sarahside;Quebec; H8M8E2;06/08/1967;2021-12-19;Inactive;;"Called Alain on Dec 19; left msg."
+CL-000141;542-335-088;Denise  ;TESSIER;Denise Tessier;none;(821) 475-3836;700 Diaz Stravenue  ;Farmerborough;AB;t9n 1j1;17JAN1938;2024-08-26;Inactive;$2,504.20;"Called Denise on Aug 26; left msg."
+CL-000142;136 035 589;Aurore  ;Boudreau;Boudreau, Aurore;none;;1012 boulevard Denise Suite 501;Séguin;Alberta;T7M7R1;1966-02-27;01MAY2020;Active;$2,755.86;"Called Aurore on May 01; left msg."
+CL-000143;186-229-514;Jessica;BOUTIN;Jessica P. Boutin;;call office;04397 Schaefer Route;Porterport;ONTARIO; P7N 4J2;00/00/0000;25/09/2022;Inactive;0;see file
+CL-000144;327971923;Alexa;COCHRAN;Alexa M. Cochran;none;5564253418;511 Goodwin Mount Apt. 204;LAKE MICHAELBOROUGH;QC;G6G 5B8;31/10/1964;2019-08-02;Active;;
+CL-000145;711 627 908;CHARLES;JONES;Jones, Charles;;899-812-1287;449 boulevard Claude;Roberthaven;British Columbia;V7A 4J3;1995-05-25;2023-03-03;Active;$1,619.15;see file
+CL-000146;999-999-99;LAURIE;SÉGUIN;Laurie R. Séguin;PETEROCONNELL@EXAMPLE.ORG;call office;9547 Beltran View;CARROLLBOROUGH;NS;B6C  8R7;14/10/1967;15AUG2019;Active;0;
+CL-000147;unknown;Jennifer;BRASSARD;Brassard, Jennifer;;;747 allé Jérôme Suite 337;WEST AARONTON;Quebec; H3G 7B7;1962-06-21;2020-10-12;Active;n/a;
+CL-000148; 127087237 ;Mélanie;PATEL;Mélanie Patel;none;944-177-3157;71644 boulevard René;LAKE MATTHEWBOROUGH;Alberta; T1M 3X8;12/09/1962;26/08/2019;Active;n/a;Placeat fugit nemo voluptatum fugiat praesentium exercitationem porro minima odio.
+CL-000149;542372107;David;Gardner;David M. Gardner;cmay@example.net;478-186-2129;63394 CHEMIN THÉODORE;SAINT- AMÉLIE;Québec;G6J  8H6;2008-08-05;2020-11-27;Inactive;n/a;"Called David on Nov 27; left msg."
+CL-000150;885 532 200;Jason;Giguère;Jason Giguère;no email on file;;54587 rue Laurent Apt. 289;New John;BC;V1N  1Y6;1954-06-16;21/03/2023;Actve;n/a;see file
+CL-000151;175871617;David;DUNCAN;David Duncan;seguinjuliette@example.org;(208) 439-3903;6407 montée Arthur Suite 876;Poulin;Québec;J3S 3A1;1976-10-21;11/12/2020;Active;n/a;
+CL-000152;407373203;Jeannine;BÉDARD;Jeannine Bédard;EDITH94@EXAMPLE.ORG;call office;4083 route Lafontaine Suite 281;South Angelaville;Alberta;t4h5h5;13JUL1992;2020-02-08;Inactive;$3,474.29;
+CL-000153;831 575 133;Béatrice;YOUNG;Béatrice J. Young;;871-672-7695;3847 rue Hélène Suite 981  ;West Elizabeth;B.C.;V8C  1L8;28/06/1965;18/08/2018;ACTIVE;550.13;
+CL-000154;887 297 753;Gilbert;BÉLISLE;Gilbert M. Bélisle;none;(208) 983-8086;296 woods island;Parsonsfort;ont.;L2V 5C4;1981-02-28;23FEB2018;ACTIVE;;"Called Gilbert on Feb 23; left msg."
+CL-000155;581-458-693;Wendy;Forget;Forget, Wendy;none;0919605172;805 MELISSA FALLS SUITE 978;Dumont;ont.;K9M 9H2;1968-10-30;2015-09-03;Active;n/a;see file
+CL-000156;N/A;miranda;DESBIENS;Miranda Desbiens;CATHERINE41@EXAMPLE.COM;call office;472 rang Lucas;Dion;NS;b3k4t4;1953-06-21;19/11/2021;ACTIVE;n/a;
+CL-000157;143 143 709;Paul  ;BEASLEY;Paul Beasley;andre68@example.net;call office;5960 boulevard Hugues;Saint- Timothée;Nova Scotia; B5H5A3;1954-09-12;2020-04-14;Inactive;503.72;see file
+CL-000158;618708168;Dakota;Desbiens;Dakota Desbiens;no email on file;685-855-4646;301 rue Tristan Suite 660;Sarah Est;British Columbia;V9M 9P6;1986-11-23;02/02/2015;Actve;0;
+CL-000159;see file;Noël;MORIN;Noël J. Morin;;;1081 Baker Pine;Ville Provost;AB;t2y 9t9;1966-01-23;26AUG2016;ACTIVE;n/a;
+CL-000160;615-016-482;Robert;ROSE;Robert A. Rose;aureliemichaud@example.com;;5151 boulevard Laurent;New Michaelburgh;British Columbia;v2a 9a1;10OCT1960;08/02/2021;ACTIVE;n/a;"Called Robert on Feb 08; left msg."
+CL-000161;173 328 958;BÉATRICE;DUBOIS;Béatrice A. Dubois;;(347) 973-7924;1486 NICOLE SUMMIT SUITE 649;Bauerberg;ON; M5R 6V1;29FEB1988;22/06/2020;;0;
+CL-000162;072665185;Samuel;POOLE;Samuel L. Poole;none;;61485 RUE DUFRESNE;South Sandybury;ont.;P5N 6J6;1998-12-13;10/06/2024;Inactive;0;see file
+CL-000163; 634846189 ;Richard;RAMIREZ;Richard D. Ramirez;connorlittle@example.org;922-080-7889;26509 Lawson Land;La Drolet;QC; G4V2R9;1996-03-12;11APR2021;;$482.58;see file
+CL-000164;040 433 934;Laurence;Silva;Laurence Silva;martincollins@example.net;1258560916;9023 Nelson Summit Suite 338;Cécile Est;Nova Scotia;B5R 1Y9;1987-03-15;13/02/2021;Active;;"Called Laurence on Feb 13; left msg."
+CL-000165;856-779-439;Terri;PARÉ;Terri V. Paré;brettstanton@example.net;call office;7124 rue Benoît;Mont- Camille;ONTARIO;l2j5a4;25/07/1945;15DEC2017;Actve;$4,204.98;
+CL-000166;640-761-686;GABRIEL;SCOTT;Scott, Gabriel;catherine94@example.net;call office;496 Anderson Wells;Rojasside;Quebec;J2B 4N5;1954-05-29;10FEB2015;Inactive;-39.13;Nobis corporis excepturi dignissimos quam excepturi dolorum quasi.
+CL-000167;335 785 084;LOUIS;GRAY;Louis K. Gray;;3548457466;6852 boulevard Perron Suite 201;EAST KRISTEN;NS; B4L 3S1;1966-04-22;22/04/2020;Pending;139.99;see file
+CL-000168;;Maxime  ;MORIN;Morin, Maxime;zwilson@example.org;;25747 boulevard Sirois Suite 178;Sainte--Baie-Drouin;AB;T7G  1X5;1964-09-08;2015-05-01;;0;Mollitia nulla sequi magni fugit molestiae possimus enim dolore nesciunt nulla eveniet aliquid laborum tempora nisi.
+CL-000169;764783254;Frédéric;DROUIN;Drouin, Frédéric;richard62@example.net;call office;1961 route Hébert Apt. 815;ANDREWTON;QC;J2K  4L8;1981-05-05;2015-09-05;Active;;"Called Frédéric on Sep 05; left msg."
+CL-000170; 102295572 ;Eric;EDWARDS;Eric L. Edwards;;call office;8300 BOULEVARD LACHAPELLE SUITE 826;L' LEFEBVRE;PQ;g3h 2h3;1941-11-17;2023-05-29;Inactive;;Amet repellat nemo maiores aperiam nam modi suscipit modi ducimus.
+CL-000171;378-570-626;Julie;Lee;Julie J. Lee;none;call office;31807 Michael Extensions;Baie Turcotte;British Columbia;V2N 7C1;30/10/1991;07NOV2021;Active;0;
+CL-000172;209641694;Amélie;Rodriguez;Amélie M. Rodriguez;no email on file;call office;041 montée Thérèse;Mont- Édouard;NS;B5T 7S3;1975-08-08;2019-06-15;ACTIVE;0;see file
+CL-000173;276-106-207;KAREN;ST-PIERRE;St-Pierre, Karen;mbeaudoin@example.net;4626435678;8152 RUE ÉMILIE;EAST JEFFREYLAND;British Columbia;V6L1N5;1954-10-03;2019-05-28;Active;$4,889.63;
+CL-000174;244075370;Michael;Richardson;Richardson, Michael;;call office;974 avenue Émilie Apt. 538;Copelandburgh;ONTARIO;L9R8L2;1977-10-21;18OCT2021;Active;443.66;see file
+CL-000175;581162302;Océane;RUSSO;Russo, Océane;;(297) 100-8963;4822 MONTÉE ÉDITH SUITE 833;Port Meganside;NS;B1B 6J7;25FEB1984;05/06/2018;Active;0;Ipsam ducimus eligendi cumque nam dicta mollitia accusamus incidunt atque ducimus ipsum dolorum accusantium voluptas facere nobis ducimus similique similique deleniti.
+CL-000176;703-213-876;Megan;WELCH;Welch, Megan;;;72584 Brandi Key;Timothée Est;ONTARIO;l6j9a3;15/10/1980;02SEP2015;Active;;see file
+CL-000177;728-611-500;Krystal;FILLION;Krystal J. Fillion;no email on file;call office;50458 rue Victor;Huffmanstad;PQ; H5L 1R5;;21/04/2015;Inactive;;see file
+CL-000178;167 047 612;Christian;CHAREST;Christian O. Charest;none;call office;;Meaganfurt;B.C.;V1B 6M4;1967-07-24;2016-10-07;Active;0;"Called Christian on Oct 07; left msg."
+CL-000179;554 420 452;Monique;SMITH;Monique Smith;emmanuelasselin@example.net;;61205 avenue Maxime;RENAUD;Alberta;T7E  7M9;;13FEB2020;Active;59.23;see file
+CL-000180;688 250 315;Guillaume;LAMOUREUX;Lamoureux, Guillaume;no email on file;897-188-7786;8369 Scott Lakes Suite 195;south courtney;AB;T7G2C5;1957-07-31;03/01/2022;ACTIVE;0;"Called Guillaume on Jan 03; left msg."
+CL-000181;;John;ROBITAILLE;John S. Robitaille;;call office;02201 avenue Édith Apt. 248;New Cory;NS;b9j4r8;;2017-05-20;Active;522.31;Laborum cum iure assumenda facilis itaque nemo molestiae beatae dolorem amet enim maxime.
+CL-000182;741 802 819;Michael;ROBLES;Robles, Michael;wilsonkimberly@example.org;;6226 boulevard camille apt. 704;La-Saint--Gélinas;B.C.;V7Y  8J9;03/09/2006;12OCT2024;Active;;see file
+CL-000183;058827320;Victoria  ;Benoît;Benoît, Victoria;perezkelly@example.com;(928) 488-2872;918 montée Gagnon;South Christopher;Nova Scotia;B7E 5E3;18JAN1938;2022-01-29;Inactive;652.62;"Called Victoria on Jan 29; left msg."
+CL-000184;see file;Debra;LALONDE;Debra M. Lalonde;emmanuelle76@example.net;call office;314 RUE GODIN;Mont- Harvey;Nova Scotia;B5M  2L6;1999-04-16;2024-05-16;Active;138.20;Recusandae at quidem inventore totam non accusantium quae soluta odit.
+CL-000185;077431435;Albert;Garcia;Albert Garcia;;;;Labelle -sur-Mer;Nova Scotia;B7S 3H7;17/11/1990;26JUN2021;Inactive;$4,980.45;
+CL-000186;834-730-285;Hélène;LEMIEUX;Hélène N. Lemieux;roberttessier@example.net;call office;7876 avenue Allard;Saint- Mélanie;BC;v9k 3n1;1996-01-02;26/02/2020;Inactive;$3,577.26;Harum expedita sint sint nam culpa voluptatum minus soluta dolorum impedit odio error impedit.
+CL-000187;134559502;Claudine;Hernandez;Claudine Hernandez;none;6203540238;527 chemin Dufour Apt. 981;Crosbyhaven;B.C.;v1t 5n1;04/09/1971;2023-10-22;;0;
+CL-000188;432 207 624;LISA;Brunet;Lisa A. Brunet;none;556-303-6018;71854 chemin Margot Suite 348;Legault;ON; L5H9X5;1983-03-16;2016-05-24;Pending;0;"Called Lisa on May 24; left msg."
+CL-000189;854 635 976;Émile;NICHOLS;Émile Nichols;no email on file;(024) 161-7345;822 allé St-Jean Suite 399;Lake Nicoleland;B.C.;v4e8v7;1936-06-15;26/10/2020;Inactive;670.85;see file
+CL-000190;235 274 305;Beth;JONES;Beth P. Jones;ashley83@example.net;;89591 Sheryl Pass Apt. 155;L' Desrosiers;ON; K7C7V2;28APR1961;2024-12-02;Inactive;723.62;
+CL-000191;see file;Jose;BÉDARD;Jose É. Bédard;no email on file;call office;2050 Phillips Mountains;Bentleyburgh;BC;v7c 7h2;20/08/2000;2018-01-31;Active;$2,475.94;see file
+CL-000192;161 525 387;Preston;Yu;Yu, Preston;lindseyanthony@example.net;;59842 Willis Skyway Suite 179;Maxime Ouest;Nova Scotia;B3X3M7;1970-02-28;2023-09-09;Pending;;see file
+CL-000193;133717947;Élodie;SCHMIDT;Schmidt, Élodie;LVINCENT@EXAMPLE.NET;415-615-8409;412 allé Dorothée Apt. 294;Robinsonburgh;AB;t8v 6h6;14AUG1951;14JUN2020;Active;n/a;
+CL-000194;;constance;MARTINEZ;Martinez, Constance;raymond32@example.org;call office;82127 Khan Extension Apt. 651;Harrisshire;ONTARIO;M3J 2X6;07/07/2005;09/05/2015;Active;$4,144.91;Molestiae consequatur voluptate nemo nobis accusamus fuga praesentium laborum.
+CL-000195;808 456 790;Cole;Marchand;Marchand, Cole;FREDERIQUE77@EXAMPLE.COM;182-626-4688;1267 Andrew Road;Ruizshire;Ontario;m6e3l8;06/08/1989;2023-08-28;Active;0;
+CL-000196;076211861;DANIEL;St-Pierre;Daniel A. St-Pierre;no email on file;0062669248;9207 Flores Causeway Apt. 398;La Mathieu;ont.;P7A4V3;1948-11-10;14NOV2024;Active;;Aperiam earum quas quos magnam optio optio error ullam.
+CL-000197;652 484 928;JUDY;WILLIAMS;Williams, Judy;duchesnenicole@example.com;(271) 856-3183;62821 route Godin;Saint- Renée;AB;t8s 4v6;00/00/0000;31DEC2021;Active;$1,129.33;Repellat omnis eveniet nostrum amet.
+CL-000198;166-191-289;Samuel;PRÉVOST;Samuel Prévost;maudeboucher@example.com;call office;660 route Margaret;Éléonore Ouest;QC;H1V 7L4;1989-02-03;26/09/2016;Inactive;453.05;see file
+CL-000199;350182531;Céline;Fortier;Céline D. Fortier;no email on file;call office;;ARTHUR -SUR-MER;BC; V3G9E5;12/08/1974;2017-06-15;Active;$3,144.12;
+CL-000200;540 253 134;Michael;Murphy;Murphy, Michael;MAUDELALIBERTE@EXAMPLE.COM;call office;610 Clarke Loaf Suite 298;PORT DAVIDFURT;NS;b4j 6m6;1947-05-25;19/02/2016;Active;$2,047.59;
+CL-000201;680-240-339;JULIETTE;KELLEY;Juliette T. Kelley;none;call office;034 HERNANDEZ PORT APT. 846;North Angela;QC;G5C 2R1;;2024-02-28;Active;0;Mollitia error illo laudantium ratione sunt eaque architecto.
+CL-000202;734 435 506;Tabitha;RICHARDSON;Tabitha Richardson;melissa99@example.com;155-851-6280;79000 allé Denis Suite 776;Port Sherry;ON;M2Y6T4;21SEP1936;06NOV2021;ACTIVE;;Aperiam quos maxime quod quae distinctio sed voluptas accusantium.
+CL-000203;056 029 853;Bernard;Spencer;Bernard V. Spencer;;call office;282 Stanton Gateway Suite 617;Lac- Brisson;B.C.;v6p4t7;1972-05-15;08JAN2021;Inactive;n/a;A eum molestiae deserunt maxime magnam commodi nulla nam.
+CL-000204;284 453 164;Christiane;ST-PIERRE;Christiane St-Pierre;;(771) 390-0426;902 Jeanette Crossing Suite 988;North Juanmouth;ont.;L8G3S8;2008-01-13;2021-12-15;ACTIVE;$1,960.66;"Called Christiane on Dec 15; left msg."
+CL-000205;880 225 339;Clémence;HARRIS;Harris, Clémence;dpelletier@example.net;call office;940 route Gilles;Georges Est;Alberta;T8K  4P4;25DEC1943;26FEB2018;;n/a;"Called Clémence on Feb 26; left msg."
+CL-000206;see file;susan;DUFOUR;Susan L. Dufour;;4763181777;29958 Roberts Spur;Rachelmouth;QC;H6Y7M2;2001-12-22;08/08/2016;Active;n/a;see file
+CL-000207;732-394-999;PATRICK;Mercier;Mercier, Patrick;none;call office;245 Foster Road Apt. 248;Port Gabriella;British Columbia;V2N 1X6;10OCT1984;2022-01-22;Inactive;852.61;see file
+CL-000208;684 438 294;Vincent;LAM;Vincent Lam;none;7476683944;7615 Stewart Center;collinston;ONTARIO;K5R 5P4;1941-03-30;2024-04-11;Actve;10.91;Quos quidem tempore unde autem officia eius autem tempore modi asperiores tempore pariatur voluptate.
+CL-000209;819 498 918;Emma;Therrien;Emma Therrien;none;784-385-7418;627 nguyen well;L'-LA-HÉBERT;BC;V1E 5X7;1944-10-24;23/08/2016;Active;195.78;"Called Emma on Aug 23; left msg."
+CL-000210;162715402;Emmanuelle  ;MARTIN;Martin, Emmanuelle;MIKE58@EXAMPLE.COM;;56037 Cole Mission;Saint- Claude;Ontario;m8p2e7;;20/01/2022;Active;n/a;
+CL-000211;136-834-683;Jose;Boudreau;Jose H. Boudreau;;;995 Katelyn Gardens;Johnsonton;AB; T5B2J7;1971-11-12;2017-08-01;Active;0;Officia labore quis unde iste pariatur officia accusamus voluptatibus occaecati asperiores.
+CL-000212; 129567956 ;MELISSA;CHAMPAGNE;Melissa Champagne;no email on file;(349) 015-5403;75696 Debbie Rapids;New Jesse;ON;K7P 2M6;1975-09-25;2019-01-26;Actve;;see file
+CL-000213;;Audrey;ST-LAURENT;St-Laurent, Audrey;no email on file;0498235877;491 Wood Fork;Lac- Benoît;AB;T2E  9P3;1988-10-30;06/03/2015;Pending;717.71;
+CL-000214;446160656;brittany;Soto;Soto, Brittany;;9541448247;91124 rue Fillion Suite 627;Lac--Saint--Gaudreault  ;AB;t3t4a5;1993-07-02;24/10/2023;Active;680.72;Ducimus ut consequatur reprehenderit quam ipsa ipsam vitae porro excepturi reiciendis repellat nemo reiciendis dolorem quidem optio praesentium excepturi reprehenderit eius maxime.
+CL-000215;552-233-801;Anne;RAYMOND;Raymond, Anne;;9276280141;6374 David Grove;Lac- Duval;ON;P7A 3K6;1966-12-23;2015-02-05;Active;$1,279.51;"Called Anne on Feb 05; left msg."
+CL-000216;501240936;Emmanuel;Ward;Emmanuel Ward;jrousseau@example.com;607-547-2207;538 Michael Pass;PORT ERINMOUTH;BC;v3j 2j4;1940-02-19;2024-09-21;ACTIVE;n/a;Ad fuga minima voluptatibus iste libero explicabo nihil occaecati id aperiam ex ab ducimus reprehenderit eum deleniti minus culpa fugiat officiis nam.
+CL-000217;550-433-288;Matthew;PAQUIN;Matthew G. Paquin;no email on file;;;SOUTH REBECCA;BC; V5A3K7;31/01/1990;18SEP2022;Active;0;
+CL-000218;375 510 816;Donna;THOMPSON;Thompson, Donna;;(327) 219-8600;73678 Michelle Spurs Apt. 915;Catherineside;British Columbia;V3L 3M1;05JUN2000;2020-08-28;Pending;;"Called Donna on Aug 28; left msg."
+CL-000219;623 554 570;Adrian;FORTIER;Adrian Fortier;xbeck@example.com;call office;25292 Jackson Tunnel;Jacksonchester;NS; B5J 1E9;24DEC1940;2017-02-23;Active;0;Quasi consequatur ducimus assumenda iure similique totam mollitia in.
+CL-000220;337-522-874;Gerald;BERNARD;Gerald Bernard;no email on file;221-302-5590;414 sampson lock suite 034;Lisaville;BC; V6N 9H7;04/03/2000;2024-10-21;Active;n/a;
+CL-000221;229 862 880;Yves;BOISVERT;Yves A. Boisvert;no email on file;call office;4278 Jones Expressway;Lake Kathleen;Alberta;t7n5p6;1954-06-07;29NOV2019;Inactive;n/a;"Called Yves on Nov 29; left msg."
+CL-000222;105-483-837;Zacharie  ;Robles;Zacharie Robles;ttardif@example.net;748-551-8936;158 Charles Plain;Port Willie;AB;t6b2j5;26DEC2002;30JAN2016;;;see file
+CL-000223;208 852 137;Jacob;Mclaughlin;Jacob A. Mclaughlin;;;97895 Ernest Corners;La Lévesque;Nova Scotia;B2L  1T6;23/01/1953;2018-06-14;Inactive;0;
+CL-000224;881-031-568;Nicole;RIOUX;Rioux, Nicole;no email on file;(122) 637-7764;94629 Sarah Square Suite 788;north danielside;PQ;j2g 8m1;1966-08-13;2020-12-28;Active;$4,246.55;"Called Nicole on Dec 28; left msg."
+CL-000225;N/A;Clémence;JONES;Clémence Jones;none;;457 ALLÉ CÉLINE;Baie Hélène Ouest;Quebec;J8N4V5;00/00/0000;2023-02-06;Inactive;n/a;
+CL-000226;see file;Michael;MORAN;Moran, Michael;;1592174464;8674 rue Gaudreault Suite 910;MONT- ROBERGE;British Columbia;V4N 7M6;1999-10-01;07/02/2022;;;In minus architecto odit eius assumenda eveniet blanditiis natus sequi eius dolores praesentium.
+CL-000227;859 723 294;Susan;SCHULTZ;Schultz, Susan;WCROTEAU@EXAMPLE.NET;(213) 970-9701;78681 rue Célina;EAST CHERYL;B.C.;v4v 7n4;30JUL1942;2015-11-08;Active;$1,613.12;
+CL-000228;143 277 200;Johnny;GAGNÉ;Gagné, Johnny;none;;;LA BOISVERT;BC;v6a 2x2;1961-01-04;16OCT2018;;629.15;Ipsam dignissimos provident nesciunt quod quidem inventore ipsum neque laborum.
+CL-000229;875686247;karine;LEBEL;Lebel, Karine;;(484) 681-7617;2204 rue Mélanie Suite 537;LAKE JUDITHSIDE;B.C.;v2y8a9;07/03/1995;2018-12-23;ACTIVE;n/a;
+CL-000230;718-067-565;Sarah;PATEL;Sarah Patel;none;;3648 Nolan Forges;Randymouth;Québec;j7a 3g1;;2024-10-01;Active;n/a;"Called Sarah on Oct 01; left msg."
+CL-000231;;MATHILDE;Paquette;Mathilde Paquette;;;12612 rue Michel Apt. 126;Angelabury;AB;T1X6E4;30/01/2005;25OCT2016;Inactive;0;see file
+CL-000232;843 247 166;Sylvie;SANCHEZ;Sylvie Sanchez;;3196962211;622 daniel burg apt. 392;East Nancyport;ont.;N9P  9E8;03/04/1980;2015-05-03;Active;n/a;see file
+CL-000233;122 688 693;Michel;DUVAL;Duval, Michel;savardcamille@example.com;485-655-4527;942 Joyce Forge Suite 227  ;Lake Joeltown;Ontario;L3H 9J2;10FEB2002;2018-07-08;Inactive;$4,702.73;see file
+CL-000234;37982290;Emily;DUCHESNE;Emily C. Duchesne;;;0757 Brown Field;SIMSCHESTER;Alberta;t4e9p9;11/01/2001;21DEC2018;Actve;0;see file
+CL-000235;803 405 535;JEAN;COUTURE;Jean S. Couture;;call office;682 Sara Shores Suite 613;Boudreau;ONTARIO; K4C8H5;07/06/2006;2017-01-01;Active;$2,378.05;"Called Jean on Jan 01; left msg."
+CL-000236;146-850-466;ÉLODIE;BURKE;Élodie Burke;gilbertelodie@example.net;3685787729;323 route Margaret;Brassard;PQ;H4N 3J7;15SEP1989;2017-10-16;Active;n/a;
+CL-000237;073 841 835;Émilie;MARCOUX;Émilie Marcoux;;(141) 003-4244;06200 brooks squares suite 938;PAULINE -SUR-MER;British Columbia;v7j 1x8;27/05/1985;2015-08-19;Active;$1,211.06;
+CL-000238;303-391-505;WILLIAM;Martin;Martin, William;RPROVENCHER@EXAMPLE.NET;9135580056;108 Sanchez Bypass;Cloutier;Québec;J3R  7T7;08/07/2003;2023-10-26;Inactive;150.78;Modi ipsum repellendus illo recusandae saepe quia molestiae commodi expedita quasi.
+CL-000239;817 052 160;Jennifer;Huerta;Jennifer Huerta;francois41@example.com;call office;120 allé Vachon  ;Catherine Ouest;Alberta; T8V9X3;1990-04-24;2019-10-31;Active;n/a;see file
+CL-000240;821 282 452;Béatrice;ALLARD;Allard, Béatrice;;(457) 981-2558;025 rue Carrier Suite 006;RENAUD;Québec;J8E8E6;2007-03-23;2022-10-14;Active;n/a;
+CL-000241;082-367-954;Guillaume;Roberson;Guillaume A. Roberson;kfrechette@example.net;;9235 Katelyn Motorway Suite 002;Tamaramouth;Nova Scotia; B9E4K3;18NOV2002;2022-01-12;Active;0;see file
+CL-000242; 417283170 ;Sara;GOOD;Sara G. Good;;call office;863 Smith Forge Apt. 145;south katelynmouth;AB;t4t 6g9;31/12/1963;31OCT2016;Active;850.03;see file
+CL-000243;606 512 022;Lucy;WILLIAMS;Williams, Lucy;auroremasse@example.org;(529) 143-1255;330 Rodriguez Passage Suite 304;Pennytown;ON; P8T 4S1;11FEB1942;22/11/2018;;-5.46;Quia et optio corrupti iusto sapiente sequi dolorum accusamus eligendi enim natus enim culpa assumenda minima officia.
+CL-000244;186 741 062;David  ;GENDRON;Gendron, David;;call office;882 Stacy Highway Suite 750;L'Île--Saint--Tardif;B.C.;V7J 8M2;2007-10-16;25JUL2020;Active;n/a;
+CL-000245; 037454553 ;Raymond;BERNARD;Bernard, Raymond;none;0929657526;713 chemin Poirier Apt. 428;BEAULIEU;PQ; J5M9T5;19/02/1945;04NOV2021;Active;;see file
+CL-000246;731924256;Pierre;ROUSSEAU;Rousseau, Pierre;none;(591) 361-5800;1079 Alyssa Ports Apt. 842;Mont--Baie-Bédard;Ontario;k7m 4a1;2005-10-12;13APR2021;Active;;"Called Pierre on Apr 13; left msg."
+CL-000247;343 879 033;Matthew;Leclerc;Matthew A. Leclerc;no email on file;call office;2706 ALLÉ DOUCET;Ville Rosalie;ONTARIO;N5R 6C4;;21/04/2015;Active;n/a;Veritatis qui delectus modi nam vero autem nobis repellendus repellendus illum tenetur.
+CL-000248; 119159732 ;Marguerite;WEISS;Marguerite Weiss;johnstondouglas@example.com;call office;4775 rue Raymond Apt. 601;L' THÉODORE;PQ;j9v 3v4;17NOV1947;2022-12-21;Inactive;896.50;
+CL-000249;239 466 796;Timothée;MEADOWS;Timothée Meadows;noelsebastien@example.org;7764949827;2600 Michelle Roads Apt. 866;Lake Lindsaymouth;PQ;G4C 6A3;1982-05-11;26/11/2016;Pending;121.51;see file
+CL-000250;031177348;John;Davis;John C. Davis;;;02253 Daniel Unions Suite 128;Ramirezmouth;AB; T1H3C5;1946-06-16;17/10/2018;ACTIVE;452.30;Ab sed saepe tempore quia hic cupiditate sequi aliquam veritatis voluptatum ratione in.
+CL-000251;568562201;Thomas;RICHARD;Thomas Richard;no email on file;;93330 Steven Plains;Cookstad;ONTARIO; N5V 6A3;00/00/0000;02/08/2018;Actve;$4,689.60;Fuga minus quis ea ex provident vel vel sunt animi sequi dolor praesentium earum adipisci eius.
+CL-000252; 062845649 ;Paulette;LEFEBVRE;Lefebvre, Paulette;none;;715 Jasmine Station Apt. 132;Baie Émile;ONTARIO; M2S3N9;1983-09-01;30/06/2022;ACTIVE;689.59;
+CL-000253;107 404 335;Laurence;SULLIVAN;Laurence Sullivan;RAYMONDBRETON@EXAMPLE.COM;(745) 362-1296;389 chemin Vachon Suite 652;L'Île- Leduc;ont.;p3j7t8;09SEP1945;03/06/2022;Inactive;456.76;
+CL-000254;779 023 017;Xavier;LINDSEY;Xavier M. Lindsey;JPOULIOT@EXAMPLE.NET;281-777-0292;;West Mitchell;ONTARIO;K2E  8R4;16DEC1959;2024-03-07;Inactive;n/a;
+CL-000255;345 845 606;Vanessa;Davis;Vanessa Davis;;(001) 383-2165;9062 chemin Maxime Apt. 658;North Reginaburgh;QC;J5V1G4;27/12/1940;08MAY2022;Pending;;see file
+CL-000256;326069496;EMMANUELLE;Allen;Allen, Emmanuelle;none;5831698597;6828 Peter Mountain;lloydside;Nova Scotia;B9X  7K5;30/12/1981;2024-01-29;Inactive;$4,399.25;
+CL-000257;716-780-168;Valérie;RODRIGUEZ;Valérie K. Rodriguez;BRENDA28@EXAMPLE.ORG;(017) 023-3092;4143 rang Roger;Audet;ont.;K1M  2K4;1958-02-03;27NOV2021;Actve;280.84;"Called Valérie on Nov 27; left msg."
+CL-000258;088613278;Joshua;DAIGLE;Daigle, Joshua;masseeleonore@example.net;;92400 Daniel Highway;New Dianatown;BC;V3M 3H1;1975-12-27;03/04/2018;Active;0;see file
+CL-000259;599 418 339;Michel;ZHANG;Michel S. Zhang;none;;05969 Todd Field Suite 947;Ville Sarah;Alberta;t3m 8a9;04/02/1991;02/01/2018;Active;;
+CL-000260;740-265-319;Robert;COULOMBE;Robert Coulombe;;(733) 868-8340;5028 Odonnell Stravenue;Ville Margaret;British Columbia;v6x 5s2;1936-03-09;2020-07-29;Inactive;0;"Called Robert on Jul 29; left msg."
+CL-000261;488023169;Audrey;ROBERGE;Roberge, Audrey;no email on file;6575799544;121 allé Paul Suite 842;Curtisburgh;Ontario;P7J 6N6;2006-06-14;21/01/2017;Actve;;see file
+CL-000262;347010530;Sean;PERREAULT;Perreault, Sean;none;6231463290;6298 rang Noël Apt. 644  ;East Davidtown;Quebec;J9Y  3K9;16/06/1983;04/06/2023;Actve;0;see file
+CL-000263;778231100;Pénélope;Robert;Pénélope D. Robert;virginiecormier@example.net;(853) 613-3616;17254 Samuel Spurs;DENNISMOUTH;QC;H5A3S2;1987-03-02;12AUG2018;Inactive;38.66;
+CL-000264;354-887-606;Jane;ST-LAURENT;St-Laurent, Jane;no email on file;call office;759 route Langlois Suite 941;Céline Est;Québec;H9C 2Y5;17APR1950;2022-11-02;Inactive;n/a;"Called Jane on Nov 02; left msg."
+CL-000265;472 816 032;Kyle;PICARD;Picard, Kyle;no email on file;(077) 016-3216;61341 RUE CHOUINARD APT. 402;Saint- Villeneuve;Ontario; K9N 7E6;16JUL1942;2018-04-13;Active;240.55;
+CL-000266; 335681273 ;Marguerite;Harris;Harris, Marguerite;none;;19363 montée Clémence;L' Roland;British Columbia;V7J  7H3;13FEB1955;2016-08-20;Active;$3,766.69;In deserunt esse eligendi repudiandae excepturi atque officiis sunt eum ratione doloremque.
+CL-000267;568-118-624;Anne  ;GOULET;Goulet, Anne;none;(330) 288-5896;9828 Lisa Trace;East Brian;Alberta;T2A 7A1;12/11/1974;28/02/2022;Active;0;
+CL-000268;325-523-237;STACEY;BERGERON;Stacey Bergeron;edouardperreault@example.org;;93101 William Valleys Apt. 418;Vachon -sur-Mer;Nova Scotia; B8N9J4;08/09/1946;28JUN2022;;$170.03;
+CL-000269;467554713;Lori;WILLIAMS;Lori Williams;no email on file;0778489382;9952 chemin Emmanuel Suite 322;SAINT- ALICE EST;British Columbia; V4G2P3;09APR1989;22JUN2020;ACTIVE;;
+CL-000270;761 782 384;ROBERT;LYONS;Lyons, Robert;no email on file;1524223815;8447 Neal Course;ROSSLAND;Ontario;m7m 4t6;04JUN1948;10/12/2018;Active;0;
+CL-000271;;SAMUEL;Paré;Samuel E. Paré;beaudoinmathieu@example.org;531-580-6390;;Allenchester;ONTARIO;N8A  3Y3;24/06/1989;28MAR2022;Active;;"Called Samuel on Mar 28; left msg."
+CL-000272;431-305-441;Marie;Kim;Marie D. Kim;;2437425507;140 Ronald Shores;MARTINEZSTAD;BC; V2T6H2;18MAR1986;2023-10-07;Inactive;$3,473.83;
+CL-000273;37408371;Stephen;Lamoureux;Stephen D. Lamoureux;HHAMEL@EXAMPLE.COM;call office;519 Ayers Oval Suite 582;Demers;British Columbia;V7V7B6;21/09/1939;13OCT2017;Active;;"Called Stephen on Oct 13; left msg."
+CL-000274;198594492;COLETTE;Houde;Colette N. Houde;WESLEY87@EXAMPLE.COM;call office;398 Greer Point;Sainte- Parent;Nova Scotia; B2S 3X9;14DEC1979;10/11/2016;Active;n/a;"Called Colette on Nov 10; left msg."
+CL-000275;583-543-012;Nicole;Marcotte;Marcotte, Nicole;qburgess@example.net;8666914385;36774 Brandon Course;Sainte- Nathalie Est;ON;N8A 3V3;10/07/1987;2015-05-23;Active;$4,728.68;see file
+CL-000276;;MARTINE;GARZA;Garza, Martine;no email on file;call office;071 Cynthia Circles Apt. 907;Richardstad;NS;b2a 8h3;2001-12-09;2021-12-13;Inactive;0;
+CL-000277;567-700-747;Jeannine;MARTIN;Martin, Jeannine;guillaumeboisvert@example.com;5074972424;262 Anderson Springs;Lac- Louise -sur-Mer;B.C.;V7K  3T3;1988-03-31;19/12/2023;Active;563.67;
+CL-000278;293 753 092;Connie;Renaud;Connie Renaud;;0536024931;1812 montée Christine;Ville Jérôme;Quebec;G8M 8L5;15JUN1979;2015-10-13;Active;;"Called Connie on Oct 13; left msg."
+CL-000279;;Lorraine;Dallaire;Lorraine N. Dallaire;;call office;02842 Karen Islands Apt. 722;Saint--Sainte--Lapointe;Nova Scotia;B3R  2G3;1981-10-04;24MAY2018;Active;677.27;see file
+CL-000280;411 964 231;Keith;CASEY;Keith M. Casey;riouxguy@example.org;064-136-4577;597 montée Gilbert Suite 788  ;VILLE LEMIRE;Québec; H3R4X9;1963-11-29;2024-08-16;Active;$4,542.46;
+CL-000281;129-643-537;Daniel;COSTA;Daniel G. Costa;no email on file;;11503 Lee Throughway Suite 711;Saint- Diane;BC;V8R  8B9;1970-10-07;2016-09-27;Inactive;139.91;
+CL-000282;016-329-654;Julien  ;LAMBERT;Julien C. Lambert;norman65@example.com;0366947267;19200 rue Houle  ;Toddville;Alberta;t3p7a3;15/09/1939;01MAR2022;Active;0;
+CL-000283;;LISA;KENNEDY;Lisa Kennedy;LAURIEFOURNIER@EXAMPLE.ORG;2472171165;4340 Mcbride Freeway Suite 208;South Donald;ont.;L6P  8J5;22NOV2005;2024-11-07;Pending;282.67;see file
+CL-000284;756083754;LARRY;GOSSELIN;Gosselin, Larry;CHRISTIANERENAUD@EXAMPLE.NET;;1592 rue Joseph  ;Mont- Simone;NS;b8s 6y7;30/11/1993;2020-06-13;Pending;n/a;"Called Larry on Jun 13; left msg."
+CL-000285;343-709-850;Teresa;GRAHAM;Graham, Teresa;none;call office;77049 Jeffrey Curve;Jimmyfort;BC; V4V 7B3;13AUG2008;2015-11-04;ACTIVE;n/a;Ipsam dolore rerum non neque odit perspiciatis rerum suscipit ab.
+CL-000286;462 433 858;Nicholas;Houde;Nicholas M. Houde;;(094) 069-9356;511 Berger Hills  ;Phillipsbury;ont.;N3C 9J8;28/09/1945;2024-01-20;Active;0;
+CL-000287;528 660 111;Susanne;Martineau;Susanne Martineau;no email on file;;928 montée Paré;L'ÎLE--L'-BÉDARD;B.C.; V3J 9N3;1968-12-01;2017-08-13;Pending;115.69;see file
+CL-000288;378090188;Michelle;Fitzpatrick;Fitzpatrick, Michelle;no email on file;479-048-3663;43947 Christopher Loaf Apt. 867;West Rachel;Quebec;H2N4K8;1947-03-20;28/12/2023;Active;$2,627.52;Praesentium non dolorem perspiciatis dolor et et quis quidem aliquid nobis a.
+CL-000289;;Nicolas;ANTHONY;Nicolas K. Anthony;GONZALEZTHOMAS@EXAMPLE.NET;(534) 030-5844;97450 montée Duchesne;ville sarah;ON;L2B 2K5;1955-06-02;24NOV2019;Active;$2,518.87;"Called Nicolas on Nov 24; left msg."
+CL-000290;243-047-180;Lauren;TYLER;Tyler, Lauren;BRADLEY21@EXAMPLE.NET;(861) 190-7000;690 allé Sarah;Sainte- Michaud;ON; N7H 9X2;08JUN1992;2019-10-20;Active;0;see file
+CL-000291;806 741 161;Kimberly;GARCIA;Garcia, Kimberly;none;;86982 Lawrence Shoal Suite 761;South Kathrynview;Quebec; G5K 5A1;;2024-03-31;Active;0;see file
+CL-000292;354850240;Théodore;GENDRON;Théodore S. Gendron;qcollins@example.com;413-157-9014;3665 rue Archambault;Sainte- Jessica;QC; G4K 8Y8;1979-05-03;2015-12-14;ACTIVE;641.31;
+CL-000293;445 503 717;Allison;Schneider;Schneider, Allison;LAURAPORTER@EXAMPLE.NET;(860) 800-6555;309 HILL FOREST;LALONDE OUEST;B.C.;V2R  9G2;1991-02-02;2017-06-18;Active;0;
+CL-000294;367 526 777;SAMUEL;Curry;Curry, Samuel;;380-692-9568;456 matthews crossing apt. 504;Lac- Jessica Ouest;British Columbia;V4G 8R7;1985-04-24;2021-05-15;Active;0;
+CL-000295;834 373 569;Ruth;KIM;Kim, Ruth;leeescobar@example.org;call office;71182 RILEY MOUNTAINS;Éléonore -sur-Mer;British Columbia; V7A 9E7;03SEP1937;20JUN2021;Inactive;$2,144.76;Facilis quos rerum culpa totam asperiores quam odit labore consequatur animi quisquam ullam beatae inventore at minima labore.
+CL-000296;733213667;Kelly;Tessier;Kelly Tessier;none;call office;368 Eric Stravenue Apt. 297;south mary;NS; B1M4R2;1996-07-28;11DEC2023;Active;n/a;see file
+CL-000297;999-999-99;Dominique;BRASSARD;Brassard, Dominique;no email on file;074-289-0237;55630 rang Simone Apt. 182;Ville Bernard;Québec; J6G5V2;1962-12-31;13OCT2015;Inactive;$3,940.54;
+CL-000298;120555770;Noël;BÉLISLE;Noël Bélisle;none;(539) 682-9552;583 rue Alain Apt. 024;Lac- Poirier;QC;g1t9s9;28/09/2002;21OCT2023;Inactive;$940.23;
+CL-000299;816 817 464;Frédérique;Cyr;Frédérique Cyr;none;075-366-7084;026 Boyd Prairie;L'Île- Amélie;Quebec;g7p2t1;22/01/1982;2021-08-07;Active;;
+CL-000300;N/A;Brenda;Martin;Brenda Martin;none;(058) 184-6314;888 rosales springs;Mirandaberg;Alberta;t8b 9p4;2003-01-10;04OCT2016;Active;n/a;

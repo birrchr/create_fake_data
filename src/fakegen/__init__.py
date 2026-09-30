@@ -2,6 +2,7 @@
 
 from .generate import generate_dataset
 from .schema import ColumnSpec, DatasetSpec, load_schema, validate_schema
+from .synth import synthesize
 
 __version__ = "0.1.0"
 __all__ = [
@@ -10,4 +11,5 @@ __all__ = [
     "DatasetSpec",
     "load_schema",
     "validate_schema",
+    "synthesize",
 ]

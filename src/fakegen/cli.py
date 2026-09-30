@@ -3,13 +3,14 @@ cli.py
 ~~~~~~
 Entry point for the `fakegen` tool.
 
-Four modes
-----------
+Modes
+-----
 init        — scaffold an example schema (and example columns CSV) to start from
 infer       — build a starter schema from an exact slice of a real reference file
 csv-to-yaml — convert a spreadsheet-style column catalog (CSV) into a schema
 validate    — check a schema file for errors without generating anything
 generate    — generate the dataset(s) a schema describes
+synth       — create `synth_` twins of real (messy, sensitive) files, one file or a whole folder
 
 Usage
 -----
@@ -18,6 +19,7 @@ Usage
     uv run fakegen csv-to-yaml --csv columns.csv --out schema.yaml --rows 5000
     uv run fakegen validate --schema schema.yaml
     uv run fakegen generate --schema schema.yaml --out-dir data
+    uv run fakegen synth examples/messy --recursive
 """
 
 from __future__ import annotations
@@ -234,6 +236,144 @@ def cmd_generate(args: argparse.Namespace) -> None:
         console.print(f"  {f}  ({size_mb:.1f} MB)")
 
 
+# ─── synth ────────────────────────────────────────────────────────────────────
+
+_DELIMITER_ALIASES = {"tab": "\t", "\\t": "\t", "comma": ",", "semicolon": ";", "pipe": "|"}
+
+
+def cmd_synth(args: argparse.Namespace) -> None:
+    import json
+
+    from .synth import synthesize
+
+    path = Path(args.path)
+    if not path.exists():
+        console.print(f"[red]✗ Not found:[/red] {path}")
+        sys.exit(1)
+
+    table = Table(show_header=False, box=None, padding=(0, 2))
+    table.add_column("Key", style="bold cyan")
+    table.add_column("Value", style="white")
+    table.add_row("Source", f"{path}{' (folder' + (', recursive)' if args.recursive else ')') if path.is_dir() else ''}")
+    table.add_row("Output", str(args.out_dir) if args.out_dir else "next to each source file")
+    table.add_row("Prefix", args.prefix)
+    if args.rows is not None:
+        table.add_row("Rows", f"{args.rows:,} per file")
+    elif args.percent is not None:
+        table.add_row("Rows", f"{args.percent:g}% of each source file")
+    else:
+        table.add_row("Rows", "same as each source file")
+    table.add_row("Locale / seed", f"{args.locale} / {args.seed if args.seed is not None else 'random'}")
+    table.add_row("k (category privacy)", str(args.k))
+    table.add_row("Large-file mode", {"auto": "auto (files ≥ 500 MB)", "on": "on", "off": "off"}[args.large_file_mode])
+    if args.overrides:
+        table.add_row("Overrides", args.overrides)
+    if args.dry_run:
+        table.add_row("Mode", "[yellow]dry run — profile and report only, nothing written[/yellow]")
+    console.print(Panel(table, title="[bold]fakegen synth[/bold]", border_style="blue"))
+
+    delimiter = _DELIMITER_ALIASES.get(args.delimiter, args.delimiter) if args.delimiter else None
+
+    with Progress(
+        TextColumn("[progress.description]{task.description}"),
+        BarColumn(),
+        TextColumn("{task.completed:,}/{task.total:,} rows"),
+        TimeElapsedColumn(),
+        console=console,
+        transient=True,
+    ) as progress:
+        tasks: dict = {}
+
+        def on_file_start(src: Path) -> None:
+            tasks[src] = progress.add_task(f"{src.name} ...", total=0)
+
+        def on_progress(src: Path, done: int, total: int) -> None:
+            progress.update(tasks[src], completed=done, total=total)
+
+        def on_status(src: Path, message: str) -> None:
+            progress.update(tasks[src], description=f"{src.name}: {message} ...")
+
+        try:
+            reports = synthesize(
+                path, args.out_dir, prefix=args.prefix, recursive=args.recursive,
+                rows=args.rows, percent=args.percent, seed=args.seed, locale=args.locale, k=args.k,
+                category_threshold=args.category_threshold, strict=args.strict,
+                sample_rows=args.sample_rows or None, overrides=args.overrides,
+                dry_run=args.dry_run, encoding=args.encoding, delimiter=delimiter,
+                has_header=not args.no_header,
+                large_file={"auto": None, "on": True, "off": False}[args.large_file_mode],
+                on_file_start=on_file_start, on_progress=on_progress, on_status=on_status,
+            )
+        except (ValueError, OSError) as exc:
+            progress.stop()
+            console.print(f"[red bold]✗ {exc}[/red bold]")
+            sys.exit(1)
+
+    if not reports:
+        console.print("[yellow]No supported files found[/yellow] (.csv .txt .tsv .dat .psv .parquet .pq, "
+                      f"not already starting with '{args.prefix}').")
+        return
+
+    for r in reports:
+        _print_file_report(r, verbose=args.verbose)
+
+    ok = [r for r in reports if r.ok]
+    failed = [r for r in reports if not r.ok]
+    console.print(
+        f"\n[bold]{len(ok)} file(s) {'profiled' if args.dry_run else 'synthesized'}[/bold]"
+        + (f", [red bold]{len(failed)} failed[/red bold]" if failed else "")
+    )
+    if args.report:
+        Path(args.report).write_text(json.dumps([r.to_dict() for r in reports], indent=2), encoding="utf-8")
+        console.print(f"Report written to {args.report}")
+    if failed:
+        sys.exit(1)
+
+
+def _print_file_report(r, verbose: bool = False) -> None:
+    if not r.ok:
+        console.print(f"\n[red bold]✗ {r.source}[/red bold]\n  {r.error}")
+        return
+    title = f"{r.source}  →  {r.output}" if r.output else f"{r.source}  (dry run)"
+    table = Table(title=title, title_justify="left", title_style="bold green", header_style="bold cyan")
+    table.add_column("Column")
+    table.add_column("Detected as")
+    table.add_column("Blank %", justify="right")
+    table.add_column("Junk %", justify="right")
+    table.add_column("Formats", justify="right")
+    table.add_column("Leak guard")
+    if verbose:
+        table.add_column("Why")
+    for c in r.columns:
+        if not c.sensitive:
+            guard = "[dim]n/a[/dim]" if c.semantic != "category" else f"[dim]{c.kept_categories} common value(s) kept[/dim]"
+        elif c.unresolved:
+            guard = f"[red]{c.unresolved} unresolved[/red]"
+        elif c.collisions:
+            guard = f"[yellow]{c.collisions} fixed[/yellow]"
+        else:
+            guard = "[green]clean[/green]"
+        semantic = f"[magenta]{c.semantic}[/magenta]" if c.sensitive else c.semantic
+        cells = [c.name, semantic, f"{c.null_pct:g}", f"{c.junk_pct:g}", str(c.shapes), guard]
+        if verbose:
+            cells.append(c.reason)
+        table.add_row(*cells)
+    console.print()
+    console.print(table)
+    rows = f"{r.rows_in:,} rows in" + (f", {r.rows_out:,} rows out" if r.output else "")
+    if r.profiled_rows < r.rows_in:
+        which = "a random" if r.large_file else "the first"
+        rows += f" (profiled {which} {r.profiled_rows:,})"
+    mode = " · large-file mode" if r.large_file else ""
+    console.print(f"  [dim]{r.file_format} · {rows} · {r.elapsed:.1f}s{mode}[/dim]")
+    for label, st in r.row_level.items():
+        if st.collisions:
+            console.print(f"  [dim]{label}: {st.collisions} generated value(s) matched a real one and were replaced"
+                          + (f", {st.fallbacks} via fallback" if st.fallbacks else "") + "[/dim]")
+    for w in r.warnings:
+        console.print(f"  [yellow]⚠ {w}[/yellow]")
+
+
 # ─── Parser ───────────────────────────────────────────────────────────────────
 
 def build_parser() -> argparse.ArgumentParser:
@@ -295,6 +435,48 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--chunk-size", type=int, default=50_000, metavar="N",
                    help="Rows generated/written per batch (default: 50,000)")
     p.set_defaults(func=cmd_generate)
+
+    # synth
+    p = sub.add_parser(
+        "synth",
+        help="Create synthetic twins of real CSV/TXT/Parquet files (one file or a whole folder)",
+        description="Profile each real file and write a synthetic twin named <prefix><name> "
+                    "that mirrors its formats and mess, with no real sensitive values carried over.",
+    )
+    p.add_argument("path", metavar="PATH", help="A file, or a folder of files")
+    p.add_argument("--out-dir", default=None, metavar="DIR",
+                   help="Write outputs here (mirroring sub-folders) instead of next to each source")
+    p.add_argument("--prefix", default="synth_", help="Output file-name prefix (default: synth_)")
+    p.add_argument("--recursive", "-r", action="store_true", help="Also process sub-folders")
+    size = p.add_mutually_exclusive_group()
+    size.add_argument("--rows", type=int, default=None, metavar="N",
+                      help="Rows per output file (default: same as the source)")
+    size.add_argument("--percent", type=float, default=None, metavar="X",
+                      help="Make each output X%% of its source's row count, e.g. 1 or 0.1 (default: 100)")
+    p.add_argument("--seed", type=int, default=None, metavar="N", help="Make output reproducible")
+    p.add_argument("--locale", default="en_CA", help="Faker locale for names/addresses (default: en_CA)")
+    p.add_argument("--k", type=int, default=5, metavar="N",
+                   help="A category value is copied only if it appears at least N times (default: 5)")
+    p.add_argument("--category-threshold", type=int, default=50, metavar="N",
+                   help="Max distinct values for a column to count as a category (default: 50)")
+    p.add_argument("--strict", action="store_true",
+                   help="Fail a file if any generated value can't be made different from every real value")
+    p.add_argument("--sample-rows", type=int, default=200_000, metavar="N",
+                   help="Rows read to learn each file's shape; 0 = all (default: 200,000). "
+                        "The leak guard always checks every row.")
+    p.add_argument("--overrides", default=None, metavar="FILE",
+                   help="YAML file forcing column types when detection gets one wrong")
+    p.add_argument("--report", default=None, metavar="FILE", help="Also save the report as JSON")
+    p.add_argument("--dry-run", action="store_true", help="Profile and report only; write nothing")
+    p.add_argument("--verbose", "-v", action="store_true", help="Show why each column was detected as it was")
+    p.add_argument("--encoding", default=None, help="Force the text encoding (default: auto-detect)")
+    p.add_argument("--delimiter", default=None,
+                   help="Force the delimiter: a character, or tab/comma/semicolon/pipe (default: auto-detect)")
+    p.add_argument("--no-header", action="store_true", help="Text files have no header row")
+    p.add_argument("--large-file-mode", choices=["auto", "on", "off"], default="auto",
+                   help="Let DuckDB count, sample and leak-check the source by streaming it, for files too big "
+                        "to read in Python (default: auto = on for files of 500 MB or more)")
+    p.set_defaults(func=cmd_synth)
 
     return root
 

@@ -9,3 +9,6 @@ data/
 # trying the tool out -- doesn't apply to examples/ or tests/ fixtures.
 /schema.yaml
 /columns.csv
+
+# Outputs from trying `fakegen synth` on the tutorial examples.
+examples/messy/**/synth_*
